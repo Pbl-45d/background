@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pagina de cambio background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Texto de formato para viewpoerr</h1>
+	<h2> 
+	$$$$$$$$$$$$$$$$ %%%%%%%%%%%%%%%%%%%%%2</h2>
+
+	<div>
+	<input type="button" name="bot" value="cambio viewport" onclick="texto()">	
+	</div>
+	<div class="conte">
+		<span>"tedxto en formato de cambio al hacer click"</span>
+	
+	<div class="second" id="num">hola a  tollo kdo
+	<button  onclick="cambio()">Background</button>	
+	</div>
+</div>
+
+<script type="text/javascript">
+	
+	function texto(){
+		alert("hola a todos los que leek neste mendaje");
+
+	}
+
+	function cambio(){
+		//var rect=[];
+		var rect=document.getElementsByClassName('second')[0];
+		var  con=document.getElementsByClassName('conte')[0];
+		//var rect=document.getElementById('num');
+		rect.style.height='800px';
+		rect.style.background='#00ff00'
+		if (rect.style.width<"700px")
+			rect.style.background='12ff00';
+		if (window.innerWidth<"800"){
+			con.style.background='#0000ff';
+			console.log("el resultado es:");
+			console.log(window.innerWidth);
+		}
+		console.log(rect.innerText);
+		
+
+	
+	}
+</script>
+
+</body>
+</html>
